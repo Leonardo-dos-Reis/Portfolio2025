@@ -6,7 +6,7 @@
     text-decoration: none;
     list-style: none;
     font-family: "Ubuntu", sans-serif;
-    font-size: 1rem;
+    font-size: 1.6rem;
 }
 
 html{
@@ -19,10 +19,12 @@ img{
     max-width: 100%;
 }
 
-button {
+a, button {
     background-color: transparent;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--preto-txt);
 }
 
 .container {
@@ -32,3 +34,4 @@ button {
     padding: 0px 16px;
     
 }
+

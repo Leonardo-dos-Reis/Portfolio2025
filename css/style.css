@@ -3,7 +3,11 @@
     border-radius: 50%;
 }
 
-li{
-    font-size: 1.0rem;
+.menu-bar {
+    width: 100%;
+    margin-top: 40px;
+    padding: 40px;
+    background-color: var(--branco-bg-escuro);
+    display: flex;
+    justify-content: space-around;
 }
-

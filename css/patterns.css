@@ -5,3 +5,13 @@ h1{
 h2{
     font-size: 2rem;
 }
+
+.btn-menu {
+    font-family: "Amatic", sans-serif;
+    font-weight: 600;
+    color: var(--branco-bg-escuro);
+    background: var(--verde-claro);
+    padding: 12px 24px;
+    border-radius: 25px;
+}
+
