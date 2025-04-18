@@ -1,13 +1,33 @@
-.foto-logo{
-    width: 150px;
-    border-radius: 50%;
+header {
+    width: 100%;
+    background: var(--cor-palida);
+    height: 90px;
+    display: flex;
 }
 
-.menu-bar {
-    width: 100%;
-    margin-top: 40px;
-    padding: 40px;
-    background-color: var(--branco-bg-escuro);
+header .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header .menu-mobile {
+    display: none;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 3.0rem;
+}
+
+header nav ul li:first-child {
+    margin-left: 0px;
 }

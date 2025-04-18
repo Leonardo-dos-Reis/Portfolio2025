@@ -1,9 +1,10 @@
 :root {
     --branco-bg-claro: #f5f5f5;
     --branco-bg-escuro: #F2F2F2;
+    --branco-texto: #F2F2F2;
     --preto-txt: #111;
     --cinza-txt: #A5A4A6;
-    --verde-palido: #A0D9A9;
-    --verde-claro: #77D986;
-    --verde-escuro: #327337;
+    --cor-palida: #F25922;
+    --cor-media: #BF4417;
+    --cor-escura: #59200B;
 }

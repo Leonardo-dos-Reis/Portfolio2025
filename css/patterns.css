@@ -22,9 +22,9 @@ h3 {
     display: inline-block;
     font-family: "Amatic", sans-serif;
     font-weight: 600;
-    color: var(--preto-txt);
-    background: var(--verde-claro);
-    padding: 12px 44px;
+    color: var(--branco-texto);
+    background: var(--cor-media);
+    padding: 1.2rem 4.4rem;
     font-size: 1.8rem;
 }
 
