@@ -1,3 +1,5 @@
+/* HEADER  */
+
 header {
     width: 100%;
     background: var(--cor-palida);
@@ -30,4 +32,51 @@ header nav ul li {
 
 header nav ul li:first-child {
     margin-left: 0px;
+}
+
+/* SECTION MAIN  */
+
+.s-main {
+    padding: 60px 0px;
+}
+
+.s-main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s-main .texto {
+    width: 100%;
+    max-width: 640px;
+}
+
+.s-main .texto h1 {
+    margin-bottom: 20px;
+}
+
+.s-main .texto p {
+    margin-bottom: 50px;
+    max-width: 48.8rem;
+    font-size: 2.0rem;
+    line-height: 150%;
+    color: var(--preto-txt);
+    padding-right: 20px;
+}
+
+.s-main .texto .btn-menu {
+    padding: 1.7rem 3.7rem;
+}
+
+.s-main .image {
+    width: 100%;
+    max-width: 38.0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-main .image img {
+    background: var(--cor-palida);
+    border-radius: 50%;
 }
